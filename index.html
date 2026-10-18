@@ -169,14 +169,13 @@ footer.note{max-width:640px;margin:10px auto 30px;padding:0 20px;font-size:.76re
 import {initializeApp} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import {getFirestore,collection,addDoc,onSnapshot,query,orderBy,doc,updateDoc,increment} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
-// 1) PASTE YOUR FIREBASE CONFIG HERE (Firebase console → Project settings → Your apps)
 const firebaseConfig = {
-  apiKey: "PASTE_HERE",
-  authDomain: "PASTE_HERE",
-  projectId: "PASTE_HERE",
-  storageBucket: "PASTE_HERE",
-  messagingSenderId: "PASTE_HERE",
-  appId: "PASTE_HERE"
+  apiKey: "AIzaSyC9qLYIUt7EnBNsJwfb4f20jM_ARvD5V_k",
+  authDomain: "konekta-1b28a.firebaseapp.com",
+  projectId: "konekta-1b28a",
+  storageBucket: "konekta-1b28a.firebasestorage.app",
+  messagingSenderId: "606385317544",
+  appId: "1:606385317544:web:5a5e3ecd628d400c07849d"
 };
 
 const db = getFirestore(initializeApp(firebaseConfig));
